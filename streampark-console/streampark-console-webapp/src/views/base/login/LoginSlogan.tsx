@@ -30,58 +30,39 @@ export default defineComponent({
               <div
                 className="animated-gradient-text_background animated-gradient-text_background-1"
                 style={{
-                  '--content': '"Apache"',
+                  '--content': '"LanYou"',
                   '--start-color': '#00DFD8',
                   '--end-color': '#FFF',
                 }}
               >
                 <span className="animated-gradient-text_foreground animated-gradient-text_foreground-1">
-                  Apache
+                  联友
                 </span>
               </div>
               <div className="flex  items-start">
                 <div
                   className="animated-gradient-text_background animated-gradient-text_background-2"
                   style={{
-                    '--content': '"StreamPark"',
+                    '--content': '"实时计算"',
                     '--start-color': '#FFF',
                     '--end-color': '#00DFD8',
                   }}
                 >
                   <span className="animated-gradient-text_foreground animated-gradient-text_foreground-2">
-                    StreamPark
+                    Neptune
                   </span>
                 </div>
-                <span className="badge bg-secondary-home text-xl tag">Incubating</span>
               </div>
             </div>
             <p className=" text-light-200 leading-40px" style={{ fontSize: '18px' }}>
-              <div>Make stream processing easier!</div>
-              <div>easy-to-use streaming application development framework</div>
-              <div>and operation platform</div>
+              <div>让实时数据处理更轻松!</div>
+              <div>简洁的实时应用开发框架</div>
+              <div>和统一运维监控平台</div>
             </p>
-          </div>
-          <div className="flex items-center mt-10">
-            <a
-              className="btn streampark-btn btn !flex items-center"
-              href="https://github.com/apache/incubator-streampark"
-              target="_blank"
-            >
-              <Icon icon="ant-design:github-filled"></Icon>
-              <div>&nbsp; GitHub</div>
-            </a>
-            <a
-              className="btn streampark-btn btn-green !flex items-center ml-10px"
-              href="https://streampark.apache.org"
-              target="_blank"
-            >
-              <Icon icon="carbon:document"></Icon>
-              <div>&nbsp;Document</div>
-            </a>
           </div>
 
           <div className="mt-20px shields z-3 flex items-center">
-            <Tag color="#477de9">Version: v{version}</Tag>
+            <Tag color="#477de9">使用文档</Tag>
             <img
               src="https://img.shields.io/github/stars/apache/incubator-streampark.svg?sanitize=true"
               className="wow fadeInUp"

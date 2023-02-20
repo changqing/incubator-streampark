@@ -19,7 +19,7 @@
     <img src="/@/assets/images/logo.png" alt="logo" v-show="!showTitle" />
     <div class="truncate md:opacity-100" :class="getTitleClass" v-show="showTitle">
       <!-- {{ title }} -->
-      <img src="/@/assets/images/logo-text.png" class="logo-text" alt="logo" />
+     <img src="/@/assets/images/logo-text.png" class="logo-text" alt="logo" />
     </div>
   </div>
 </template>

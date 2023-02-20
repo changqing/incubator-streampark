@@ -50,6 +50,7 @@
         </Row>
       </div>
     </div>
+<!--
     <footer class="w-1150px m-auto text-center bg-transparent opacity-60">
       <a href="https://incubator.apache.org/" target="_blank" class="w-200px m-auto inline-block">
         <img
@@ -63,6 +64,7 @@
         feather logo are trademarks of The Apache Software Foundation.
       </p>
     </footer>
+-->
   </div>
 </template>
 <script lang="ts" setup>

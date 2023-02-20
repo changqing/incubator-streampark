@@ -25,7 +25,7 @@
         :theme="getHeaderTheme"
         :style="getLogoWidth"
       />
-      <LayoutTrigger
+      <LayoutTrigger>
         v-if="
           (getShowContent && getShowHeaderTrigger && !getSplit && !getIsMixSidebar) || getIsMobile
         "
