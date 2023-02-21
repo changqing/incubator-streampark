@@ -25,7 +25,7 @@
         :theme="getHeaderTheme"
         :style="getLogoWidth"
       />
-      <LayoutTrigger>
+      <LayoutTrigger
         v-if="
           (getShowContent && getShowHeaderTrigger && !getSplit && !getIsMixSidebar) || getIsMobile
         "
@@ -58,7 +58,7 @@
       <Divider type="vertical" />
 
       <!-- Github info -->
-      <Github :class="`${prefixCls}-action__item github-item`" />
+      <!--<Github :class="`${prefixCls}-action__item github-item`" />-->
       <!-- Theme Switch -->
       <appDarkModeToggle />
 
