@@ -31,7 +31,7 @@
 <template>
   <div :class="slognClass">
     <span :class="`${prefixCls}-streampark`">
-      Apache StreamPark,&nbsp; Make&nbsp; stream processing&nbsp;easier!
+      实时计算平台
     </span>
   </div>
 </template>
